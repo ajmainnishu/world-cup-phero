@@ -16,7 +16,7 @@ body {
 /* header section start */
 header {
     max-width: 1321px;
-    margin: 0 auto;
+    margin: 50px auto 130px auto;
     background-color: #161616;
     border-radius: 30px;
     padding-top: 33px;
@@ -24,7 +24,7 @@ header {
 .header-banner {
     display: flex;
     justify-content: space-between;
-    padding: 0 79px;
+    padding: 0 17px 0 76px;
 }
 .header-banner-half {
     width: 45%;
@@ -56,3 +56,105 @@ header {
     height: 100%;
 }
 /* header section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query start */
+/* tablet version */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    /* header */
+    header {
+        max-width: 734px;
+    }
+    .header-banner h1 {
+        font-size: 40px;
+    }
+    .header-banner p {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 48px;
+    }
+    .header-banner a {
+        font-size: 20px;
+        margin-bottom: 61px;
+    }
+}
+
+
+
+
+/* mobile version */
+@media only screen and (max-width: 688px) {
+   
+    /* header */
+    header {
+        max-width: 334px;
+        padding-top: 28px;
+        margin-bottom: 24px;
+    }
+    .header-banner {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .header-banner-half {
+        width: 100%;
+    }
+    .header-banner h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 53px;
+        margin-right: 53px;
+    }
+    .header-banner p {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 48px;
+        text-align: center;
+        margin-left: 38px;
+        margin-right: 38px;
+    }
+    .header-banner a {
+        padding: 8px 12px;
+        margin-bottom: 21px;
+        display: block;
+        width: 121px;
+        margin: 0 auto 21px auto;
+    }
+    .header-banner img {
+        display: block;
+        width: 233px;
+        margin: 0 auto;
+    }
+}
+/* media query end */
