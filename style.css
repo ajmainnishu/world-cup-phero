@@ -8,6 +8,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(211, 211, 211, 0.5);
 }
 
 
@@ -56,6 +57,43 @@ header {
     height: 100%;
 }
 /* header section end */
+
+
+
+
+/* footer section start */
+footer {
+    background-color: #161616;
+    padding: 130px 0;
+}
+footer h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+footer hr {
+    max-width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.footer-contact {
+    max-width: 898px;
+    margin: 50px auto 0 auto;
+}
+.footer-anchor {
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* footer section end */
 
 
 
@@ -139,7 +177,7 @@ header {
         font-size: 14px;
         text-overflow: ellipsis;
         overflow: hidden;
-        height: 48px;
+        height: 45px;
         text-align: center;
         margin-left: 38px;
         margin-right: 38px;
