@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(211, 211, 211, 0.5);
+    /* background-color: rgba(211, 211, 211, 0.5); */
 }
 
 
@@ -61,6 +61,126 @@ header {
 
 
 
+
+
+
+
+/* main section start */
+/* index file */
+section {
+    max-width: 1321px;
+    margin: 0 auto 130px auto;
+}
+.match {
+    display: grid;
+    grid-template-columns: 312px 3fr;
+    column-gap: 24px;
+}
+.match-fixed {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px 5px 30px;
+    gap: 30px;
+    height: 312px;
+    border-radius: 10px;
+    justify-content:center;
+    position: sticky;
+    top: 0px;
+}
+.match-fixed a {
+    font-weight: 500;
+    color: #161616;
+    font-size: 20px;
+    text-align: center;
+    padding: 17px 39px;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+#match-fixed-blog {
+    color: #FFFFFF;
+    background-color:#DD0000 ;
+}
+.match-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.match-item {
+    box-shadow: -1px 2px 10px rgba(22, 22, 22, 0.1);
+    border-radius: 10px;
+}
+.match-item img {
+    max-width: 100%;
+}
+.match-article {
+    padding: 20px;
+}
+.match-article > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #161616;
+    padding: 4px 16px;
+    border: 1px solid #161616;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0;
+}
+.match-article h4 {
+    font-family: 600;
+    color: #161616;
+    font-size: 18px;
+    margin: 15px 0 20px 0;
+}
+.match-icons {
+    display: flex;
+    column-gap: 30px;
+    color: rgba(22, 22, 22, 0.7);
+}
+.match-icons p {
+    margin: 0;
+}
+
+
+/* match file */
+.flag-item {
+    box-shadow: -1px 2px 10px rgba(22, 22, 22, 0.1);
+    border-radius: 10px;
+    padding: 53px 30px;
+}
+.flag-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #161616;
+    font-weight: 700;
+}
+.flag-img img {
+    max-width: 100%;
+}
+.flag-item h4 {
+    font-weight: 600;
+    color: #161616;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.flag-item p {
+    color: #4D4D4D;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+/* main section end */
+
+
+
+
 /* footer section start */
 footer {
     background-color: #161616;
@@ -94,32 +214,6 @@ footer a {
     text-decoration: none;
 }
 /* footer section end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
