@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* background-color: rgba(211, 211, 211, 0.5); */
+    background-color: rgba(211, 211, 211, 0.2);
 }
 
 
@@ -51,6 +51,11 @@ header {
     border-radius: 5px;
     margin-bottom: 100px;
     display: inline-block;
+    transition: .5s;
+}
+header:hover .header-banner a {
+    background-color: lightgray;
+    color: #161616;
 }
 .header-banner img {
     width: 100%;
@@ -107,6 +112,7 @@ section {
 .match-item {
     box-shadow: -1px 2px 10px rgba(22, 22, 22, 0.1);
     border-radius: 10px;
+    background-color: #FFF;
 }
 .match-item img {
     width: 100%;
@@ -148,6 +154,7 @@ section {
     box-shadow: -1px 2px 10px rgba(22, 22, 22, 0.1);
     border-radius: 10px;
     padding: 53px 30px;
+    background-color: #FFF;
 }
 .flag-img {
     display: flex;
@@ -184,7 +191,7 @@ section {
 /* footer section start */
 footer {
     background-color: #161616;
-    padding: 130px 0;
+    padding: 130px 0 120px 0;
 }
 footer h2{
     color: #FFF;
@@ -212,6 +219,15 @@ footer a {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+}
+.footer-social {
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+.fa-twitter {
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
 }
 /* footer section end */
 
@@ -268,6 +284,10 @@ footer a {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #match-fixed-blog {
+        color:#161616 ;
+        background-color: lightgray;
     }
     .match-container {
         grid-template-columns: 1fr 1fr;
@@ -403,6 +423,12 @@ footer a {
         flex-direction: column;
         align-items: center;
         row-gap: 30px;
+    }
+    .footer-social {
+        margin-top: 40px;
+    }
+    .fa-twitter {
+        font-size: 30px;
     }
 }
 /* media query end */
